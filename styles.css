@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+}
+
+.slide {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide h1, .slide h2 {
+    margin: 0;
+    padding: 20px;
+}
+
+.slide a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.slide a:hover {
+    background-color: #0056b3;
+}
+
+#slide1 {
+    background-color: #f3f4f6;
+}
+
+#slide2 {
+    background-color: #e2e8f0;
+}
+
+#slide3 {
+    background-color: #cbd5e0;
+}
+
+/* Show the targeted slide */
+.slide:target {
+    display: block;
+}
+
+/* Show the first slide by default */
+body:not(:target) #slide1 {
+    display: block;
+}
