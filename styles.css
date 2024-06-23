@@ -168,7 +168,7 @@ body:not(:target) #slide1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
-    bottom: 300px;
+    bottom: 230px;
     color: black;
 }
 .fifth {
