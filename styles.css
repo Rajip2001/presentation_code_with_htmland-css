@@ -40,8 +40,8 @@ body {
 .slide a:hover {
     background-color: #0056b3;
 }
-/* 
-@keyframes fadeIn {
+
+/* @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
@@ -49,12 +49,12 @@ body {
 @keyframes slideUp {
     from { transform: translateY(100px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
-}
+} */
 
 @keyframes rotateIn {
     from { transform: rotate(-360deg); opacity: 0; }
     to { transform: rotate(0); opacity: 1; }
-} */
+}
 
 #slide1 {
     background: url('images/background.jpg') no-repeat center center fixed; 
@@ -126,10 +126,10 @@ body:not(:target) #slide1 {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    /* animation: rotateIn 5s cubic-bezier(0.68, -0.55, 0.27, 1.55); */
+    animation: rotateIn 5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.second, .third, .fourth, .fifth, .sixth {
+.second{
     justify-content: center;
     align-items: center;
     width: 97.5%;
@@ -140,7 +140,63 @@ body:not(:target) #slide1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
-    bottom: 500px;
+    bottom: 250px;
+    color: black;
+}
+.third {
+    justify-content: center;
+    align-items: center;
+    width: 97.5%;
+    max-width: 10000px;
+    padding: 0.5px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute; 
+    bottom: 150px;
+    color: black;
+}
+.fourth {
+    justify-content: center;
+    align-items: center;
+    width: 97.5%;
+    max-width: 10000px;
+    padding: 0.5px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute; 
+    bottom: 300px;
+    color: black;
+}
+.fifth {
+    justify-content: center;
+    align-items: center;
+    width: 97.5%;
+    max-width: 10000px;
+    padding: 0.5px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute; 
+    bottom: 300px;
+    color: black;
+}
+.sixth {
+    justify-content: center;
+    align-items: center;
+    width: 97.5%;
+    max-width: 10000px;
+    padding: 0.5px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute; 
+    bottom: 300px;
     color: black;
 }
 
