@@ -41,30 +41,23 @@ body {
     background-color: #0056b3;
 }
 
-/* @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 
 @keyframes slideUp {
     from { transform: translateY(100px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
-} */
-
-@keyframes rotateIn {
-    from { transform: rotate(-360deg); opacity: 0; }
-    to { transform: rotate(0); opacity: 1; }
 }
 
+
+
 #slide1 {
-    background: url('images/background.jpg') no-repeat center center fixed; 
+    background: url('images/back01.jpg') no-repeat center center fixed; 
     background-size: cover; 
     color:white;  
     display: block;
 }
 
 #slide2, #slide3, #slide4, #slide5, #slide6 {
-    background: url('images/background2.jpg') no-repeat center center fixed; 
+    background: url('images/background3.png') no-repeat center center fixed; 
     background-size: cover;
     color:white; 
 }
@@ -118,7 +111,6 @@ body:not(:target) #slide1 {
     color: #ffffff;
     margin: 0;
     padding: 50px 0;
-    /* animation: fadeIn 1s ease-in-out; */
 }
 
 .submit p {
@@ -126,7 +118,7 @@ body:not(:target) #slide1 {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    animation: rotateIn 5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    
 }
 
 .second{
@@ -134,10 +126,6 @@ body:not(:target) #slide1 {
     align-items: center;
     width: 97.5%;
     max-width: 10000px;
-    padding: 0.5px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
     bottom: 250px;
@@ -148,10 +136,6 @@ body:not(:target) #slide1 {
     align-items: center;
     width: 97.5%;
     max-width: 10000px;
-    padding: 0.5px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
     bottom: 150px;
@@ -162,10 +146,6 @@ body:not(:target) #slide1 {
     align-items: center;
     width: 97.5%;
     max-width: 10000px;
-    padding: 0.5px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
     bottom: 230px;
@@ -176,13 +156,9 @@ body:not(:target) #slide1 {
     align-items: center;
     width: 97.5%;
     max-width: 10000px;
-    padding: 0.5px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
-    bottom: 300px;
+    bottom: 200px;
     color: black;
 }
 .sixth {
@@ -190,10 +166,6 @@ body:not(:target) #slide1 {
     align-items: center;
     width: 97.5%;
     max-width: 10000px;
-    padding: 0.5px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: absolute; 
     bottom: 300px;
