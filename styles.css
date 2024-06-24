@@ -91,7 +91,7 @@ body:not(:target) #slide1 {
     color: #007BFF;
     margin: 0;
     padding: 10px 0;
-    /* animation: fadeIn 1s ease-in-out; */
+    animation: slideUp 2s ease-in-out;
 }
 
 .submit {
